@@ -1,0 +1,16 @@
+app-id: org.oneal.PrivilegedBridge
+runtime: org.kde.Platform
+runtime-version: '6.11'
+sdk: org.kde.Sdk
+command: PrivilegedBridge
+finish-args:
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --share=ipc
+  - --device=dri
+modules:
+  - name: PrivilegedBridge
+    buildsystem: cmake-ninja
+    sources:
+      - type: dir
+        path: .
