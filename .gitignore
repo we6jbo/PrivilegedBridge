@@ -10,3 +10,4 @@ CMakeCache.txt
 .privilegedbridge-backups/
 tg_context_snapshot.json
 *.before-*
+.oneal-flathub-readiness-ok
