@@ -5,3 +5,8 @@ CMakeFiles/
 CMakeCache.txt
 *.o
 *.user
+
+# Local/private PrivilegedBridge files
+.privilegedbridge-backups/
+tg_context_snapshot.json
+*.before-*
