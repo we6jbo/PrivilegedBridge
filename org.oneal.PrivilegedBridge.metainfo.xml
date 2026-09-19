@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop-application">
+<component type="console-application">
   <id>org.oneal.PrivilegedBridge</id>
   <name>PrivilegedBridge</name>
-  <summary>Practice and learn fractions</summary>
+  <summary>Controlled access to approved privileged Linux operations</summary>
+
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>Apache-2.0</project_license>
+
   <description>
-    <p>A desktop application for practicing fraction arithmetic.</p>
+    <p>
+      PrivilegedBridge provides a secure, allowlisted command-line interface
+      between local AI agents and approved Linux system operations.
+    </p>
+    <p>
+      It allows AI-assisted automation without granting unrestricted root
+      shell access. Privileged actions are predefined and authorization is
+      handled through controlled system mechanisms.
+    </p>
   </description>
-  <launchable type="desktop-id">org.oneal.PrivilegedBridge.desktop</launchable>
+
+  <provides>
+    <binary>PrivilegedBridge</binary>
+  </provides>
+
   <categories>
-    <category>Education</category>
+    <category>Development</category>
+    <category>System</category>
   </categories>
+
+  <url type="homepage">https://j03.page/2026/09/19/giving-ai-safe-privileges/</url>
+  <url type="source">https://github.com/we6jbo/PrivilegedBridge</url>
+
+  <releases>
+    <release version="0.6" date="2026-09-19">
+      <description>
+        <p>Initial PrivilegedBridge release with allowlisted local AI system operations.</p>
+      </description>
+    </release>
+  </releases>
 </component>
