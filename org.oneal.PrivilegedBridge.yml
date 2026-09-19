@@ -4,6 +4,7 @@ runtime-version: '6.11'
 sdk: org.kde.Sdk
 command: PrivilegedBridge
 finish-args:
+  - --talk-name=org.freedesktop.Flatpak
   - --socket=wayland
   - --socket=fallback-x11
   - --share=ipc

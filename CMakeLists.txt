@@ -22,10 +22,6 @@ install(TARGETS PrivilegedBridge
     RUNTIME DESTINATION bin
 )
 
-# Flathub desktop integration
-install(FILES org.oneal.PrivilegedBridge.desktop
-        DESTINATION share/applications)
+# AppStream metadata
 install(FILES org.oneal.PrivilegedBridge.metainfo.xml
         DESTINATION share/metainfo)
-install(FILES org.oneal.PrivilegedBridge.svg
-        DESTINATION share/icons/hicolor/scalable/apps)

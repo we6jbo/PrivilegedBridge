@@ -11,3 +11,7 @@ CMakeCache.txt
 tg_context_snapshot.json
 *.before-*
 .oneal-flathub-readiness-ok
+# PrivilegedBridge local/private data
+*.snap
+*.zip
+.flatpak-builder/

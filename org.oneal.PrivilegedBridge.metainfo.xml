@@ -9,13 +9,13 @@
 
   <description>
     <p>
-      PrivilegedBridge provides a secure, allowlisted command-line interface
+      PrivilegedBridge provides an allowlisted command-line interface
       between local AI agents and approved Linux system operations.
     </p>
     <p>
-      It allows AI-assisted automation without granting unrestricted root
-      shell access. Privileged actions are predefined and authorization is
-      handled through controlled system mechanisms.
+      Rather than giving an AI agent an unrestricted privileged shell,
+      PrivilegedBridge exposes predefined actions and reports their
+      results through a local command-line interface.
     </p>
   </description>
 
@@ -34,7 +34,10 @@
   <releases>
     <release version="0.6" date="2026-09-19">
       <description>
-        <p>Initial PrivilegedBridge release with allowlisted local AI system operations.</p>
+        <p>
+          Initial public PrivilegedBridge release with an allowlisted
+          local AI system-operation interface.
+        </p>
       </description>
     </release>
   </releases>
